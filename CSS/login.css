@@ -1,0 +1,134 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+
+header div{
+    background-color:#1CD1B0;
+    padding:2px 0 2px 8px;
+    position:relative;
+}
+
+header img{
+    position:absolute;
+    top: 27px;
+    margin-left:10px;
+    background-color:#00669F ;
+}
+header h1{
+    background-color:#00669F;
+    padding:25px 0 25px 130px;
+    color:white;
+}
+
+section h1{
+    text-align:center ;
+    font-size: 60px;
+    font-family: inter, sans-serif;
+    text-align:end;
+    padding: 25px;
+    color:#333333;
+
+}
+
+section{
+    margin-top:150px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction:column;
+    margin-bottom: 250px;
+}
+
+input{
+    display:flex;
+    width:500px;
+    padding:13px;
+    margin:10px;
+}
+
+button{
+    font-size: 17px;
+    background-color:#1CD1B0;
+    padding:13px;
+    width:530px;
+    margin:10px;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+p{
+    font-size: 20px;
+    padding:20px;
+}
+footer{
+    background-color:#00669F;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+
+/* MODIFICACION DE REGISTRO */
+.tituloregistro{
+    text-align:center;
+    position:relative;
+    right:150px;
+    font-size: 60px;
+}
+.sectionR{
+    margin-bottom:155px;
+}
+.selectR{
+    display:flex;
+    width:530px;
+    padding:13px;
+    margin:10px;
+}
+.buttonr{
+    font-size: 20px;
+    margin-left:15px;
+    padding: 9px;
+    color:black;
+    width:250px;
+    border-radius: 50px;
+    height:40px;
+}
+
+
+/* MODIFICACION DE CONTACTO */
+.CONTACTOh1{
+    position: relative;
+    right:100px;
+    font-size: 55px;
+}
+
+.HOLAHOLA{
+    margin-top:130px;
+    margin-bottom:105px;
+}
+.textarea{
+    display:flex;
+    width:500px;
+    height:200px;
+    padding:13px;
+    margin:10px;
+}
+
+.button{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left:15px;
+    color:black;
+    background-color:#1CD1B0;
+    width:250px;
+    border-radius: 50px;
+    height:40px;
+    padding:9px;
+}
+
+.buttonC1{
+color:white;
+background-color:#888888;
+}

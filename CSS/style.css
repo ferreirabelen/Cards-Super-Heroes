@@ -1,0 +1,109 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+
+header div{
+    background-color:#1CD1B0;
+    padding:2px 0 2px 8px;
+    position:relative;
+
+}
+header img{
+    position:absolute;
+    top: 27px;
+    margin-left:10px;
+    background-color:#00669F ;
+}
+header h1{
+    background-color:#00669F;
+    padding:25px 0 25px 130px;
+    color:white;
+}
+nav{
+    background-color:#001D2D;
+    color:white;
+    display:flex;
+    justify-content:right;
+    padding:8px;
+    padding-left:40px;
+}
+nav ul{
+    color: seashell;
+    list-style:none;
+    display:flex;
+    width:400px;
+    justify-content:space-evenly;
+    font-size: 18px;
+}
+a{
+    color: white;
+}
+section{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    margin-bottom: 65px;
+}
+section article{
+    position: relative;            /*En relativo ya que la imagen es absoluta sin el relativo la imagen se guia por el body, cuando debe guiarse por la caja*/
+    border-radius: 16px 16px 0 0;
+    margin: 100px 0;
+    width: 300px;
+    background-color:#F3F3F3;
+    text-align: center;
+}
+
+article div{
+    height: 190px;
+    background: url(../img/fondo.png);
+}
+.articlediv1{
+    height:190px;
+    background: url(../img/fondohq.png);
+}
+
+.corazon{
+    position:absolute;
+    left:15px;
+    top:10px;
+}
+article img{
+    border-radius: 50%;
+    position:absolute;           /*debe ser abs para que no ocupe su espacio anterior y que se vea el texto, sino cambia a relativo y ver como queda*/  
+    top:148px; 
+    left:90px;
+}
+article h2{
+    font-size:24px;
+    margin-top:80px;
+}
+
+article p{
+    text-align: left;
+    padding: 15px;
+}
+
+
+article button{
+    padding:10px 30px;
+    margin: 25px;
+    background-color:#00669F;
+    margin-bottom:25px;
+    color:white;
+}
+
+footer{
+    background-color:#00669F;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color:rgb(92, 124, 221);
+}
